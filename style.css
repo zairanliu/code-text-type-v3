@@ -1,0 +1,11 @@
+/* .image-in-img-column {
+  position: absolute;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+#image-column > img {
+  left: 50%;
+  transform: translateX(-50%);
+}
